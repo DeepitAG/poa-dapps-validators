@@ -44,7 +44,7 @@ export default class AllValidators extends Component {
       })
   }
   async augmentValidatorsWithPhysicalAddress(validators) {
-    return validators;
+    return validators
     let augmentedValidators = []
 
     const popa = this.getProofOfPhysicalAddressContract()
