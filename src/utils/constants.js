@@ -9,7 +9,7 @@ constants.ABIsSources = {
   ProofOfPhysicalAddress: 'ProofOfPhysicalAddress.abi.json'
 }
 constants.userDeniedTransactionPattern = 'User denied transaction'
-constants.rootPath = '/'
+constants.rootPath = ''
 constants.branches = {
   PCHAIN: 'pchain'
 }
