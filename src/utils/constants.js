@@ -1,5 +1,5 @@
 const constants = {}
-constants.organization = 'poanetwork'
+constants.organization = 'DeepitAG'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -14,7 +14,8 @@ constants.branches = {
   DAI: 'dai',
   CORE: 'core',
   SOKOL: 'sokol',
-  KOVAN: 'kovan'
+  KOVAN: 'kovan',
+  DCHAIN: 'dchain'
 }
 
 constants.navigationData = [
@@ -58,6 +59,12 @@ constants.NETWORKS = {
     NAME: 'Dai',
     RPC: 'https://dai.poa.network',
     BRANCH: constants.branches.DAI,
+    TESTNET: false
+  },
+  '192': {
+    NAME: 'Dchain',
+    RPC: 'http://bootnode-balancer-397837162.us-east-1.elb.amazonaws.com',
+    BRANCH: constants.branches.DCHAIN,
     TESTNET: false
   }
 }
